@@ -1,7 +1,9 @@
 package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
-
+//
+//  class PositionType called from Job.class
+//
 public class PositionType extends JobField {
 
     public PositionType(String value) {
@@ -10,11 +12,10 @@ public class PositionType extends JobField {
 
 }
 
-
-
-//***** Removed below repetitive codes as we created Abstract class for JobField *******
-
-    //    private int id;
+//
+//  Removed following code; replaced with Abstract class for JobField
+//
+//    private int id;
 //    private static int nextId = 1;
 //    private String value;
 

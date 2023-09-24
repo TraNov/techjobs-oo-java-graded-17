@@ -1,7 +1,9 @@
 package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
-
+//
+//  class Location called from Job.class
+//
 public class Location extends  JobField {
 
 
@@ -10,9 +12,9 @@ public class Location extends  JobField {
     }
 }
 
-
-    //***** Removed below repetitive codes as we created Abstract class for JobField ******
-
+//
+//  Removed following code; replaced with Abstract class for JobField
+//
 //    private int id;
 //    private static int nextId = 1;
 //    private String value;
@@ -24,7 +26,7 @@ public class Location extends  JobField {
 
 // TODO: Add a constructor that takes a string as a parameter and assigns it to the 'value' field. The
 //  constructor should also call the empty constructor in order to initialize the 'id' field.
-    // Custom toString, equals, and hashCode methods:
+// Custom toString, equals, and hashCode methods:
 
 //  @Override
 //    public String toString() {

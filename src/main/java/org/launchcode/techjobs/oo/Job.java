@@ -1,7 +1,14 @@
 package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
-
+//
+//  class PositionType called from Job.class
+//  class Job calls:
+//                   CoreCompetency
+//                   Employer
+//                   Location
+//                   PositionType
+//
 public class Job {
 
     private int id;
@@ -70,6 +77,20 @@ public class Job {
         if(core==""){
             core="Data not available";
         }
+        //
+        // Issues with TestTaskFive.testToStringStartsAndEndsWithNewLine():
+        //              lineSeparator: Windows "/r/n" vs Unix "/n"
+        //
+        String lineSeparator = System.lineSeparator();
+        lineSeparator = System.getProperty("line.separator");
+        String strOut = lineSeparator +
+                "ID: " + id +
+                lineSeparator + "Name: " + name +
+                lineSeparator + "Employer: " + emp +
+                lineSeparator + "Location: " + loc +
+                lineSeparator + "Position Type: " + pos +
+                lineSeparator + "Core Competency: " + core +
+                lineSeparator;
         return "\n" +
                 "ID: " + id +
                 "\nName: " + name +
@@ -78,7 +99,6 @@ public class Job {
                 "\nPosition Type: " + pos +
                 "\nCore Competency: " + core +
                 "\n";
-
     }
 
 

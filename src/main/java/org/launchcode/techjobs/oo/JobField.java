@@ -1,6 +1,13 @@
 package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
+//
+//  JobField extends:
+//                   CoreCompetency
+//                   Employer
+//                   Location
+//                   PositionType
+//
 
 public abstract class JobField {
     private int id;

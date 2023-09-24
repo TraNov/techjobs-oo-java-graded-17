@@ -1,7 +1,9 @@
 package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
-
+//
+//  class Employer called from Job.class
+//
 public class Employer extends JobField {
 
 
@@ -10,10 +12,10 @@ public class Employer extends JobField {
     }
 
 }
-
-//***** Removed below repetitive codes as we created Abstract class for JobField *******
-
-    //    private int id;
+//
+//  Removed following code; replaced with Abstract class for JobField
+//
+//    private int id;
 //    private static int nextId = 1;
 //    private String value;
 
